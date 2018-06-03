@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NJDropDown_Example' do
+  pod 'NJDropDown', :path => '../'
+
+  target 'NJDropDown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
