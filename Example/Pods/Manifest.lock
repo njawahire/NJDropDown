@@ -1,0 +1,16 @@
+PODS:
+  - NJDropDown (0.1.0)
+
+DEPENDENCIES:
+  - NJDropDown (from `../`)
+
+EXTERNAL SOURCES:
+  NJDropDown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NJDropDown: fbd09d650d53c9b7c85db35dd51b261637eca0b6
+
+PODFILE CHECKSUM: 9982afaa4058f59cfb498ade846678d52f16490f
+
+COCOAPODS: 1.5.2

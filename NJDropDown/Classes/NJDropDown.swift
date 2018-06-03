@@ -1,19 +1,20 @@
 //
-//  NJDropDownSwift.swift
-//  NJDropDownSwift
+//  NJDropDown.swift
+//  NJDropDown
 //
-//  Created by ITRS-676 on 27/05/18.
-//  Copyright © 2018 nj. All rights reserved.
+//  Created by njawahire on 06/03/2018.
+//  Copyright (c) 2018 njawahire. All rights reserved.
+//
 //
 
 import UIKit
 
-protocol NJDropDownSwiftDelegate{
-    func njDropDownDelegateMethod(sender:NJDropDownSwift)
+public protocol NJDropDownDelegate{
+    func njDropDownDelegateMethod(sender:NJDropDown)
     func njDropDownDelegateMethod(sender:UIView, title:String)
     func njDropDownHidden()
 }
-class NJDropDownSwift: UIView, UITableViewDelegate, UITableViewDataSource {
+public class NJDropDown: UIView, UITableViewDelegate, UITableViewDataSource {
     let SCREEN_BOUND = UIScreen.main.bounds
     let DEFAULT_ALIGNMENT = 5
     var table = UITableView()
@@ -31,23 +32,23 @@ class NJDropDownSwift: UIView, UITableViewDelegate, UITableViewDataSource {
     var tableBackgroundColor:UIColor? = nil
     var backgroundDimViewColor:UIColor? = nil
     var backgroundDimViewAlpha:CGFloat! = nil
-    var delegate: NJDropDownSwiftDelegate! = nil
+    public var delegate: NJDropDownDelegate! = nil
     var animationDirection = String()
     var imgView = UIImageView()
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func showDropDown(b:UIView, height:CGFloat, arr:NSArray, imgArr:NSArray, direction: String, viewController:UIViewController) ->  NJDropDownSwift{
+    public func showDropDown(b:UIView, height:CGFloat, arr:NSArray, imgArr:NSArray, direction: String, viewController:UIViewController) ->  NJDropDown{
         btnSender = b
         self.dropDownItemTextAlignment = NSTextAlignment.center;
         animationDirection = direction;
-//        self.table = super.init()
+        //        self.table = super.init()
         self.dropDownViewController = viewController;
         // Initialization code
         let btn = b.frame;
@@ -113,21 +114,21 @@ class NJDropDownSwift: UIView, UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 40
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.list.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let CellIdentifier = "Cell"
-//        var cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier)!
+        //        var cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier)!
         
         let cell = UITableViewCell.init(style: .default, reuseIdentifier: CellIdentifier)
         cell.textLabel?.font = UIFont.systemFont(ofSize: 15)
@@ -175,12 +176,12 @@ class NJDropDownSwift: UIView, UITableViewDelegate, UITableViewDataSource {
         } else{
             cell.textLabel?.textColor = UIColor.black
         }
-            
+        
         return cell;
-
+        
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         hideDropDown(b: btnSender)
         let c = tableView.cellForRow(at: indexPath)
         
@@ -259,11 +260,11 @@ class NJDropDownSwift: UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+     // Only override draw() if you perform custom drawing.
+     // An empty implementation adversely affects performance during animation.
+     override func draw(_ rect: CGRect) {
+     // Drawing code
+     }
+     */
 }
 

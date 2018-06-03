@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C894827B5F4505238E41B340E5A5023 /* NJDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 172A86894BE92E8D1B38539E70B445B2 /* NJDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F6CED33182BBF4E9B648A13240B9B80 /* NJDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B2AD8B3AC84F422172538FF692F96D /* NJDropDown-dummy.m */; };
+		19207E0ACE37F2E39C8788705A6CCB90 /* Pods-NJDropDown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA1D467B32E62B180FCBE1C872C29FE /* Pods-NJDropDown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F67372620C4584F00F83D85 /* NJDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67372320C4584F00F83D85 /* NJDropDown.swift */; };
+		51846A111ABB205E7721D0DFC20144C6 /* Pods-NJDropDown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2334EF61E1D4562836FC38B1BD70BC5F /* Pods-NJDropDown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8737E2CE3859C86B5B67FED3EF33E70E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0D64963C134913E8A30B6D260BA207B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B972672C1AD3DB627FECBC8480D1DEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF46A2ADAC94420FF23CFBF1E157BC6A /* Pods-NJDropDown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B92966FCD2B02626D210AB9A094CA02E /* Pods-NJDropDown_Example-dummy.m */; };
+		E1EB2999D0230E9F8F6FBA37AC149DBB /* Pods-NJDropDown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C674AFE76C4D6370BC69420C231578 /* Pods-NJDropDown_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4D18F5F64A45DD03637260C492EC69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB49BA5665EB153A15AF674AA4A6D82;
+			remoteInfo = "Pods-NJDropDown_Example";
+		};
+		D4FFD56514DC0C976E8E43F1296563ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1334DABB295987294DB576D16DE830;
+			remoteInfo = NJDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038DD363BED2BB2FCA5596665B2F30D8 /* Pods-NJDropDown_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NJDropDown_Example-resources.sh"; sourceTree = "<group>"; };
+		043CFF8E3730BB969EA7E9DFC180ADD2 /* Pods-NJDropDown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NJDropDown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07264CD1AF1DCF0A71216DB3530F2C9B /* Pods-NJDropDown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NJDropDown_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12FD74474F4320910E8E6C75594C9DEE /* Pods-NJDropDown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NJDropDown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		172A86894BE92E8D1B38539E70B445B2 /* NJDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJDropDown-umbrella.h"; sourceTree = "<group>"; };
+		1E55035F64E73116082BED5ECC2B1949 /* Pods-NJDropDown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NJDropDown_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2334EF61E1D4562836FC38B1BD70BC5F /* Pods-NJDropDown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NJDropDown_Example-umbrella.h"; sourceTree = "<group>"; };
+		24D762BC1C7D24A6E44F2DEBD6BEECC0 /* Pods-NJDropDown_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NJDropDown_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2BBFB20AF8D1F1C45DEFE498AB82E564 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2D325F08EF11AD13694FEFA9356014DE /* NJDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJDropDown-prefix.pch"; sourceTree = "<group>"; };
+		3F67372220C4584F00F83D85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3F67372320C4584F00F83D85 /* NJDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJDropDown.swift; sourceTree = "<group>"; };
+		3F67372520C4584F00F83D85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		447ED11160108416CEE8CA47B9CC7E31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68DA6A44545F7A951E482BCB4D1E36E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9C823D118D8A8623257AFDD2659AB2 /* NJDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NJDropDown.modulemap; sourceTree = "<group>"; };
+		6F5C0A8F6188A2BBB089AE91CF39ED83 /* Pods_NJDropDown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDropDown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B0CD64F4C63B9766347891CD759C88 /* Pods-NJDropDown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NJDropDown_Tests-resources.sh"; sourceTree = "<group>"; };
+		76959C770CBA8E910737B503A6B87B8E /* NJDropDown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NJDropDown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C474CA5FB944AD36DD355958B76F610 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8BA1D467B32E62B180FCBE1C872C29FE /* Pods-NJDropDown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NJDropDown_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F56C1517231461650F9227A77A7DFA /* NJDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NJDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9EE0122F8E6ED8DF5A210D6EB1B412 /* NJDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJDropDown.xcconfig; sourceTree = "<group>"; };
+		A1B756016CDEFA891E8F9F7E9F584272 /* Pods-NJDropDown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NJDropDown_Example.modulemap"; sourceTree = "<group>"; };
+		B92966FCD2B02626D210AB9A094CA02E /* Pods-NJDropDown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NJDropDown_Example-dummy.m"; sourceTree = "<group>"; };
+		B92D515B1340EE751A66263779C24641 /* Pods_NJDropDown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDropDown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C045EAAC509E520B8207FCF865D9026F /* Pods-NJDropDown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NJDropDown_Tests.modulemap"; sourceTree = "<group>"; };
+		C4C674AFE76C4D6370BC69420C231578 /* Pods-NJDropDown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NJDropDown_Tests-dummy.m"; sourceTree = "<group>"; };
+		C9B2AD8B3AC84F422172538FF692F96D /* NJDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJDropDown-dummy.m"; sourceTree = "<group>"; };
+		CB79E7D8C2D5DCB87B58CBFB8C445015 /* Pods-NJDropDown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NJDropDown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB46DD467B94803C9F0471AABEDAA144 /* Pods-NJDropDown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NJDropDown_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF9DA1937C5A2198F648988DA1504F55 /* Pods-NJDropDown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NJDropDown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3D6DA9813CE4797FCB0A7F78695A30C /* Pods-NJDropDown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NJDropDown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E52F18B5DA6435C03E8F48E8C70C3A56 /* Pods-NJDropDown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NJDropDown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F0A8D429DEDABA4FCB69FCAC86124C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EDE1E97414552228C58F9287FE9EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D64963C134913E8A30B6D260BA207B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEE10BE8237EDBCA4F926BC9F13C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B972672C1AD3DB627FECBC8480D1DEFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B7ECB546186B4C452C5B27BDF73E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8737E2CE3859C86B5B67FED3EF33E70E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DB7B6D495B73B2FB347C32A0BF5584 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521D7A020A469D427C9FA0638D0BC874 /* NJDropDown */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25DA2F31BAAE798A001159C6F9A56E73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DA6A44545F7A951E482BCB4D1E36E3 /* Info.plist */,
+				6D9C823D118D8A8623257AFDD2659AB2 /* NJDropDown.modulemap */,
+				9F9EE0122F8E6ED8DF5A210D6EB1B412 /* NJDropDown.xcconfig */,
+				C9B2AD8B3AC84F422172538FF692F96D /* NJDropDown-dummy.m */,
+				2D325F08EF11AD13694FEFA9356014DE /* NJDropDown-prefix.pch */,
+				172A86894BE92E8D1B38539E70B445B2 /* NJDropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NJDropDown";
+			sourceTree = "<group>";
+		};
+		29254BFF91053D9BA22322476239B4E8 /* Pods-NJDropDown_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				447ED11160108416CEE8CA47B9CC7E31 /* Info.plist */,
+				C045EAAC509E520B8207FCF865D9026F /* Pods-NJDropDown_Tests.modulemap */,
+				E52F18B5DA6435C03E8F48E8C70C3A56 /* Pods-NJDropDown_Tests-acknowledgements.markdown */,
+				12FD74474F4320910E8E6C75594C9DEE /* Pods-NJDropDown_Tests-acknowledgements.plist */,
+				C4C674AFE76C4D6370BC69420C231578 /* Pods-NJDropDown_Tests-dummy.m */,
+				24D762BC1C7D24A6E44F2DEBD6BEECC0 /* Pods-NJDropDown_Tests-frameworks.sh */,
+				75B0CD64F4C63B9766347891CD759C88 /* Pods-NJDropDown_Tests-resources.sh */,
+				8BA1D467B32E62B180FCBE1C872C29FE /* Pods-NJDropDown_Tests-umbrella.h */,
+				043CFF8E3730BB969EA7E9DFC180ADD2 /* Pods-NJDropDown_Tests.debug.xcconfig */,
+				CB79E7D8C2D5DCB87B58CBFB8C445015 /* Pods-NJDropDown_Tests.release.xcconfig */,
+			);
+			name = "Pods-NJDropDown_Tests";
+			path = "Target Support Files/Pods-NJDropDown_Tests";
+			sourceTree = "<group>";
+		};
+		3F67372120C4584F00F83D85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F67372220C4584F00F83D85 /* .gitkeep */,
+				3F67372320C4584F00F83D85 /* NJDropDown.swift */,
+			);
+			name = Classes;
+			path = NJDropDown/Classes;
+			sourceTree = "<group>";
+		};
+		3F67372420C4584F00F83D85 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F67372520C4584F00F83D85 /* .gitkeep */,
+			);
+			name = Assets;
+			path = NJDropDown/Assets;
+			sourceTree = "<group>";
+		};
+		521D7A020A469D427C9FA0638D0BC874 /* NJDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				3F67372420C4584F00F83D85 /* Assets */,
+				3F67372120C4584F00F83D85 /* Classes */,
+				D57624C7AE0A26E294D60E726738A488 /* Pod */,
+				25DA2F31BAAE798A001159C6F9A56E73 /* Support Files */,
+			);
+			name = NJDropDown;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				10DB7B6D495B73B2FB347C32A0BF5584 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E6EB47EE6F9D3F8B68805E416F2238D1 /* Products */,
+				EC02D5C216487A3C27D70742E7EDA29D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC02E617D150F6BEDE62DC9F83CCCB17 /* Pods-NJDropDown_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F7F0A8D429DEDABA4FCB69FCAC86124C /* Info.plist */,
+				A1B756016CDEFA891E8F9F7E9F584272 /* Pods-NJDropDown_Example.modulemap */,
+				DF9DA1937C5A2198F648988DA1504F55 /* Pods-NJDropDown_Example-acknowledgements.markdown */,
+				E3D6DA9813CE4797FCB0A7F78695A30C /* Pods-NJDropDown_Example-acknowledgements.plist */,
+				B92966FCD2B02626D210AB9A094CA02E /* Pods-NJDropDown_Example-dummy.m */,
+				DB46DD467B94803C9F0471AABEDAA144 /* Pods-NJDropDown_Example-frameworks.sh */,
+				038DD363BED2BB2FCA5596665B2F30D8 /* Pods-NJDropDown_Example-resources.sh */,
+				2334EF61E1D4562836FC38B1BD70BC5F /* Pods-NJDropDown_Example-umbrella.h */,
+				1E55035F64E73116082BED5ECC2B1949 /* Pods-NJDropDown_Example.debug.xcconfig */,
+				07264CD1AF1DCF0A71216DB3530F2C9B /* Pods-NJDropDown_Example.release.xcconfig */,
+			);
+			name = "Pods-NJDropDown_Example";
+			path = "Target Support Files/Pods-NJDropDown_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D57624C7AE0A26E294D60E726738A488 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2BBFB20AF8D1F1C45DEFE498AB82E564 /* LICENSE */,
+				76959C770CBA8E910737B503A6B87B8E /* NJDropDown.podspec */,
+				7C474CA5FB944AD36DD355958B76F610 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E6EB47EE6F9D3F8B68805E416F2238D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F56C1517231461650F9227A77A7DFA /* NJDropDown.framework */,
+				B92D515B1340EE751A66263779C24641 /* Pods_NJDropDown_Example.framework */,
+				6F5C0A8F6188A2BBB089AE91CF39ED83 /* Pods_NJDropDown_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC02D5C216487A3C27D70742E7EDA29D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC02E617D150F6BEDE62DC9F83CCCB17 /* Pods-NJDropDown_Example */,
+				29254BFF91053D9BA22322476239B4E8 /* Pods-NJDropDown_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96DD57BE892CDE0CEFA17237E1710699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51846A111ABB205E7721D0DFC20144C6 /* Pods-NJDropDown_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5337862BC60A3F12515EB7C785FFF0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C894827B5F4505238E41B340E5A5023 /* NJDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F7AE3F09C070B3203AAE0C2F447774 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19207E0ACE37F2E39C8788705A6CCB90 /* Pods-NJDropDown_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DB49BA5665EB153A15AF674AA4A6D82 /* Pods-NJDropDown_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E872F86C3ADA79D5208AB44E9664C1CE /* Build configuration list for PBXNativeTarget "Pods-NJDropDown_Example" */;
+			buildPhases = (
+				A6DF50892F4D2E0CC0E283FFADBADB6C /* Sources */,
+				25EDE1E97414552228C58F9287FE9EDB /* Frameworks */,
+				96DD57BE892CDE0CEFA17237E1710699 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E3A03BC8650607308D90A02CB028A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-NJDropDown_Example";
+			productName = "Pods-NJDropDown_Example";
+			productReference = B92D515B1340EE751A66263779C24641 /* Pods_NJDropDown_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C4AFF886EC89CDF9A942078C6A079D1 /* Pods-NJDropDown_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5114FC3075C7A026131087673B067856 /* Build configuration list for PBXNativeTarget "Pods-NJDropDown_Tests" */;
+			buildPhases = (
+				CB326EAB397C4DF2F5C3AA210D58CE27 /* Sources */,
+				BBEEE10BE8237EDBCA4F926BC9F13C20 /* Frameworks */,
+				D6F7AE3F09C070B3203AAE0C2F447774 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98738E18A5EDD0265B39BB0893E8477B /* PBXTargetDependency */,
+			);
+			name = "Pods-NJDropDown_Tests";
+			productName = "Pods-NJDropDown_Tests";
+			productReference = 6F5C0A8F6188A2BBB089AE91CF39ED83 /* Pods_NJDropDown_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C1334DABB295987294DB576D16DE830 /* NJDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C5074DE666320299C0F7CEC5C381E8 /* Build configuration list for PBXNativeTarget "NJDropDown" */;
+			buildPhases = (
+				95454FA55FB7D089779C06F9C8BC9023 /* Sources */,
+				F3B7ECB546186B4C452C5B27BDF73E22 /* Frameworks */,
+				C5337862BC60A3F12515EB7C785FFF0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJDropDown;
+			productName = NJDropDown;
+			productReference = 93F56C1517231461650F9227A77A7DFA /* NJDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6EB47EE6F9D3F8B68805E416F2238D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1334DABB295987294DB576D16DE830 /* NJDropDown */,
+				0DB49BA5665EB153A15AF674AA4A6D82 /* Pods-NJDropDown_Example */,
+				6C4AFF886EC89CDF9A942078C6A079D1 /* Pods-NJDropDown_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95454FA55FB7D089779C06F9C8BC9023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F67372620C4584F00F83D85 /* NJDropDown.swift in Sources */,
+				0F6CED33182BBF4E9B648A13240B9B80 /* NJDropDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DF50892F4D2E0CC0E283FFADBADB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF46A2ADAC94420FF23CFBF1E157BC6A /* Pods-NJDropDown_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB326EAB397C4DF2F5C3AA210D58CE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EB2999D0230E9F8F6FBA37AC149DBB /* Pods-NJDropDown_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E3A03BC8650607308D90A02CB028A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJDropDown;
+			target = 8C1334DABB295987294DB576D16DE830 /* NJDropDown */;
+			targetProxy = D4FFD56514DC0C976E8E43F1296563ED /* PBXContainerItemProxy */;
+		};
+		98738E18A5EDD0265B39BB0893E8477B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NJDropDown_Example";
+			target = 0DB49BA5665EB153A15AF674AA4A6D82 /* Pods-NJDropDown_Example */;
+			targetProxy = 8C4D18F5F64A45DD03637260C492EC69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04829A7F096CAF50299DA9E2092BA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E55035F64E73116082BED5ECC2B1949 /* Pods-NJDropDown_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NJDropDown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NJDropDown_Example/Pods-NJDropDown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E8951645F5A5BFF7B85AF5B1A6B7336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB79E7D8C2D5DCB87B58CBFB8C445015 /* Pods-NJDropDown_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NJDropDown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NJDropDown_Tests/Pods-NJDropDown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B91D831E2337698631F8BB97900E758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07264CD1AF1DCF0A71216DB3530F2C9B /* Pods-NJDropDown_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NJDropDown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NJDropDown_Example/Pods-NJDropDown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BF11F1F2E74AFE7FB1E05A144454906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043CFF8E3730BB969EA7E9DFC180ADD2 /* Pods-NJDropDown_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NJDropDown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NJDropDown_Tests/Pods-NJDropDown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C360FD926214837826ADAA5FC5579A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9EE0122F8E6ED8DF5A210D6EB1B412 /* NJDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NJDropDown/NJDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NJDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NJDropDown/NJDropDown.modulemap";
+				PRODUCT_MODULE_NAME = NJDropDown;
+				PRODUCT_NAME = NJDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE505E9A1CB88432E6AD0F95FAB528E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9EE0122F8E6ED8DF5A210D6EB1B412 /* NJDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NJDropDown/NJDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NJDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NJDropDown/NJDropDown.modulemap";
+				PRODUCT_MODULE_NAME = NJDropDown;
+				PRODUCT_NAME = NJDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C5074DE666320299C0F7CEC5C381E8 /* Build configuration list for PBXNativeTarget "NJDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C360FD926214837826ADAA5FC5579A6 /* Debug */,
+				BE505E9A1CB88432E6AD0F95FAB528E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5114FC3075C7A026131087673B067856 /* Build configuration list for PBXNativeTarget "Pods-NJDropDown_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF11F1F2E74AFE7FB1E05A144454906 /* Debug */,
+				3E8951645F5A5BFF7B85AF5B1A6B7336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E872F86C3ADA79D5208AB44E9664C1CE /* Build configuration list for PBXNativeTarget "Pods-NJDropDown_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04829A7F096CAF50299DA9E2092BA70E /* Debug */,
+				4B91D831E2337698631F8BB97900E758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

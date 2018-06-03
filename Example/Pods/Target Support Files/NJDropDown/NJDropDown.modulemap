@@ -1,0 +1,6 @@
+framework module NJDropDown {
+  umbrella header "NJDropDown-umbrella.h"
+
+  export *
+  module * { export * }
+}
