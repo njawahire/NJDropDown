@@ -22,7 +22,7 @@ pod 'NJDropDown'
 
 ## Author
 
-njawahire, nakash.jawahire@sundaymobility.com
+njawahire, jawahirenakash@gmail.com
 
 ## License
 
