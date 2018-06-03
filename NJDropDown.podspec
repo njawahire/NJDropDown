@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'NJDropDown'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NJDropDown.'
-
+  s.summary          = 'Swift version of NIDropDown'
+  s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NJDropDown/Classes/**/*'
+  s.source_files = 'NJDropDown/**/*'
   
   # s.resource_bundles = {
   #   'NJDropDown' => ['NJDropDown/Assets/*.png']
